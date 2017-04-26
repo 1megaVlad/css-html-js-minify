@@ -57,7 +57,7 @@ def clean_unneeded_html_tags(html):
     """
     log.debug("Removing unnecessary optional HTML tags.")
     for tag_to_remove in ("""</area> </base> <body> </body> </br> </col>
-        </colgroup> </dd> </dt> <head> </head> </hr> <html> </html> </img>
+        </colgroup> </dd> </dt> </hr> <html> </html> </img>
         </input> </li> </link> </meta> </option> </param> <tbody> </tbody>
         </td> </tfoot> </th> </thead> </tr> </basefont> </isindex> </param>
             """.split()):
